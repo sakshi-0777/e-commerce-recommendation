@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global reset + fix text visibility */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #111;              /* dark text so everything is visible */
+  background-color: #fff;   /* clean white background */
+}
+
+/* Make sure headings are clearly visible */
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+/* Optional: nicer hover effect */
+a:hover {
+  color: #2563eb;
+}
